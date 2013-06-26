@@ -641,6 +641,7 @@
 		53EB7E3E15B771F5003193F9 /* ImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53EB7E3715B771D4003193F9 /* ImageScrollView.m */; };
 		53EB7E3F15B771F8003193F9 /* TilingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53EB7E3B15B771D4003193F9 /* TilingView.m */; };
 		53EB7E4715B7744D003193F9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53EB7E4515B7744D003193F9 /* MainStoryboard.storyboard */; };
+		979299FA1772D386001A3A52 /* BasePhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 979299F91772D386001A3A52 /* BasePhotoViewController.m */; };
 		C9CD3150157E63950099CB16 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CD314F157E63950099CB16 /* UIKit.framework */; };
 		C9CD3152157E63950099CB16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CD3151157E63950099CB16 /* Foundation.framework */; };
 		C9CD3154157E63950099CB16 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CD3153157E63950099CB16 /* CoreGraphics.framework */; };
@@ -1289,6 +1290,8 @@
 		53EB7E3A15B771D4003193F9 /* TilingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TilingView.h; path = Classes/TilingView.h; sourceTree = SOURCE_ROOT; };
 		53EB7E3B15B771D4003193F9 /* TilingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TilingView.m; path = Classes/TilingView.m; sourceTree = SOURCE_ROOT; };
 		53EB7E4615B7744D003193F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = SOURCE_ROOT; };
+		979299F81772D386001A3A52 /* BasePhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasePhotoViewController.h; path = Classes/BasePhotoViewController.h; sourceTree = SOURCE_ROOT; };
+		979299F91772D386001A3A52 /* BasePhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasePhotoViewController.m; path = Classes/BasePhotoViewController.m; sourceTree = SOURCE_ROOT; };
 		C9CD314B157E63950099CB16 /* PhotoScroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoScroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9CD314F157E63950099CB16 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C9CD3151157E63950099CB16 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -1999,6 +2002,8 @@
 				53EB7E3715B771D4003193F9 /* ImageScrollView.m */,
 				53EB7E3A15B771D4003193F9 /* TilingView.h */,
 				53EB7E3B15B771D4003193F9 /* TilingView.m */,
+				979299F81772D386001A3A52 /* BasePhotoViewController.h */,
+				979299F91772D386001A3A52 /* BasePhotoViewController.m */,
 				C9CD3156157E63950099CB16 /* Supporting Files */,
 				53EB793D15B76E8A003193F9 /* Full Images */,
 				53EB794115B76E8A003193F9 /* Image Tiles */,
@@ -2719,6 +2724,7 @@
 				53EB7E3D15B771F3003193F9 /* PhotoViewController.m in Sources */,
 				53EB7E3E15B771F5003193F9 /* ImageScrollView.m in Sources */,
 				53EB7E3F15B771F8003193F9 /* TilingView.m in Sources */,
+				979299FA1772D386001A3A52 /* BasePhotoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

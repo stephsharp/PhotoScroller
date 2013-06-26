@@ -47,38 +47,12 @@
  */
 
 #import "AppDelegate.h"
-#import "PhotoViewController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // kick things off by making the first page
-    PhotoViewController *pageZero = [PhotoViewController photoViewControllerForPageIndex:0];
-    if (pageZero != nil)
-    {
-        // assign the first page to the pageViewController (our rootViewController)
-        UIPageViewController *pageViewController = (UIPageViewController *)self.window.rootViewController;
-        pageViewController.dataSource = self;
-        
-        [pageViewController setViewControllers:@[pageZero]
-                                      direction:UIPageViewControllerNavigationDirectionForward
-                                       animated:NO
-                                     completion:NULL];
-    }
     return YES;
-}
-
-- (UIViewController *)pageViewController:(UIPageViewController *)pvc viewControllerBeforeViewController:(PhotoViewController *)vc
-{
-    NSUInteger index = vc.pageIndex;
-    return [PhotoViewController photoViewControllerForPageIndex:(index - 1)];
-}
-
-- (UIViewController *)pageViewController:(UIPageViewController *)pvc viewControllerAfterViewController:(PhotoViewController *)vc
-{
-    NSUInteger index = vc.pageIndex;
-    return [PhotoViewController photoViewControllerForPageIndex:(index + 1)];
 }
 
 @end
