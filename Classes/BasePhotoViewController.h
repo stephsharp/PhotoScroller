@@ -8,5 +8,7 @@
 #import <UIKit/UIKit.h>
 
 @interface BasePhotoViewController : UIViewController <UIPageViewControllerDataSource>
+
 @property (nonatomic, strong) UIPageViewController * pageViewController;
+
 @end
